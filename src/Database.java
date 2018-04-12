@@ -33,6 +33,19 @@ public class Database {
         }
     }
 
+    public Plane getPlane(String planeID){
+        for (Plane plane : planeList){
+            if (plane.getPlaneID().equals(planeID)){
+                return plane;
+            }
+        }
+        return null;
+    }
+
+
+
+
+
 
 
 

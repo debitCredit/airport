@@ -12,4 +12,9 @@ public class Plane {
     public String toString() {
         return this.planeID + " (" + planeCapacity +" ppl)";
     }
+
+    public String getPlaneID() {
+        return planeID;
+    }
+
 }

@@ -12,6 +12,6 @@ public class Flight {
 
     @Override
     public String toString() {
-        return plane + "(" + this.depAirport + "-" + this.arrAirport + ")";
+        return plane + " (" + this.depAirport + "-" + this.arrAirport + ")";
     }
 }
